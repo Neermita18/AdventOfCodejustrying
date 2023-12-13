@@ -15,7 +15,7 @@ Learnt file handling(properly) and new functions.
 code!!
 
 
-with open("input2.txt", 'r') as file:
+```with open("input2.txt", 'r') as file:
     lines= file.readlines()
     ans=0
     for line in lines:
@@ -32,4 +32,4 @@ with open("input2.txt", 'r') as file:
         if see:
             ans+= int((gameno).split()[-1])
             print(gameno)
-print(ans) #add all gamenos        
+print(ans) #add all gamenos   ```    
