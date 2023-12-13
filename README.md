@@ -1,4 +1,5 @@
 Advent of Code Day 2 Part 1
+
 A coding contest held in the month of December according to the Advent Calendar. Just giving them a try.
 
 Need to sum all the days where the given constraint holds. 
