@@ -32,4 +32,4 @@ code!!
         if see:
             ans+= int((gameno).split()[-1])
             print(gameno)
-print(ans) #add all gamenos   ```    
+print(ans) #add all gamenos   
