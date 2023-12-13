@@ -15,7 +15,8 @@ Learnt file handling(properly) and new functions.
 code!!
 
 
-```with open("input2.txt", 'r') as file:
+```
+with open("input2.txt", 'r') as file:
     lines= file.readlines()
     ans=0
     for line in lines:
