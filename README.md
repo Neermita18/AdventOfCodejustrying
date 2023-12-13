@@ -26,9 +26,9 @@ with open("input2.txt", 'r') as file:
         for event in line.split(';'): #events differentiated by ;
             for balls in event.split(','): #each event has number of balls and color
                 
-                n,color = balls.split() #store those values
+                number,color = balls.split() #store those values
                 mydict={'red':12, 'green':13, 'blue':14} #the constraint
-                if int(n) > mydict.get(color,0):  #checking if the number of balls of a color in given event is more than constraint
+                if int(number) > mydict.get(color,0):  #checking if the number of balls of a color in given event is more than constraint
                     see=False #can't add if it is
         if see:
             ans+= int((gameno).split()[-1]) #gameno contains 'Game : number.' accessing the number
