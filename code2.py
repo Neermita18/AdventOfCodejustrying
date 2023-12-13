@@ -8,9 +8,9 @@ with open("input2.txt", 'r') as file:
         for event in line.split(';'):
             for balls in event.split(','):
                 
-                n,color = balls.split()
+                number,color = balls.split()
                 mydict={'red':12, 'green':13, 'blue':14}
-                if int(n) > mydict.get(color,0):
+                if int(number) > mydict.get(color,0):
                     see=False
         if see:
             ans+= int((gameno).split()[-1])
