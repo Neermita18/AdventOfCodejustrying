@@ -12,7 +12,7 @@ Set a variable to check if the constraint holds or not on a given day. (see)
 
 Learnt file handling(properly) and new functions.
 
-#code!!
+code!!
 with open("input2.txt", 'r') as file:
     lines= file.readlines()
     ans=0
