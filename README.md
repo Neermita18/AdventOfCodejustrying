@@ -1,9 +1,9 @@
-#Advent of Code Day 2 Part 1 and 2
+# Advent of Code Day 2 Part 1 and 2
 
 
-A coding contest held in the month of December according to the Advent Calendar. Just giving them a try. Used Python.
+## A coding contest held in the month of December according to the Advent Calendar. Just giving them a try. Used Python.
 
-Part 1
+### Part 1
 
 Need to sum all the days where the given constraint holds.
 (ans) contains that. 
@@ -38,6 +38,9 @@ with open("input2.txt", 'r') as file:
             print(gameno)
 print(ans) #add all gamenos
 ```
+### Part 2
+Constraint: In each game you played, what is the fewest number of cubes of each color that could have been in the bag to make the game possible?
+We just make a dictionary where each key(color) holds the maximum number of balls across all events in a game
 
 code2!!
 ```
