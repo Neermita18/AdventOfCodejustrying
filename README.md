@@ -1,6 +1,9 @@
-Advent of Code Day 2 Part 1
+Advent of Code Day 2 Part 1 and 2
+
 
 A coding contest held in the month of December according to the Advent Calendar. Just giving them a try. Used Python.
+
+Part 1
 
 Need to sum all the days where the given constraint holds.
 (ans) contains that. 
@@ -12,7 +15,7 @@ Set a variable to check if the constraint holds or not on a given day. (see)
 
 Learnt file handling(properly) and new functions.
 
-code!!
+code1!!
 
 
 ```
@@ -33,4 +36,7 @@ with open("input2.txt", 'r') as file:
         if see:
             ans+= int((gameno).split()[-1]) #gameno contains 'Game : number.' accessing the number
             print(gameno)
-print(ans) #add all gamenos   
+print(ans) #add all gamenos```
+
+code2!!
+
