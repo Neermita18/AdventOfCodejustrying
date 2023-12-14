@@ -36,7 +36,8 @@ with open("input2.txt", 'r') as file:
         if see:
             ans+= int((gameno).split()[-1]) #gameno contains 'Game : number.' accessing the number
             print(gameno)
-print(ans) #add all gamenos```
+print(ans) #add all gamenos
+```
 
 code2!!
 
