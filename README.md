@@ -1,7 +1,7 @@
 # Advent of Code Day 2 Part 1 and 2
 
 
-## A coding contest held in the month of December according to the Advent Calendar. Just giving them a try. Used Python.
+## A coding contest held in the month of December according to the Advent Calendar. Just giving it a try. 
 
 ### Part 1
 
