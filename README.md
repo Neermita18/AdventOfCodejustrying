@@ -5,7 +5,7 @@
 
 ### Part 1
 
-Need to sum all the days where the given constraint holds.
+Need to sum all the days where the given constraint holds: Which games would have been possible if the bag contained only 12 red cubes, 13 green cubes, and 14 blue cubes?
 (ans) contains that. 
 
 Used a dictionary for the constraint.
